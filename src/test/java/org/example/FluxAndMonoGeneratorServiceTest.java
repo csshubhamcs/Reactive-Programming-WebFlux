@@ -2,7 +2,10 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -60,5 +63,14 @@ Integer stringLength = 4;
         Flux<String> nameFlux = fluxAndMonoGeneratorService.nameFlux_flatmap(stringLength);
         StepVerifier.create(nameFlux)
                 .expectNext("S","H","U","B","H","A","M","R","A","H","U","L");
+    }
+
+    @Test
+    void nameMono_flatMap() {
+        int stringLength = 2;
+       Mono<List<String>> nameFlux = fluxAndMonoGeneratorService.nameMono_flatMap(stringLength);
+        StepVerifier.create(nameFlux)
+                .expectNext(List.of("S","H","U","B","H","A","M"))
+                .verifyComplete();
     }
 }

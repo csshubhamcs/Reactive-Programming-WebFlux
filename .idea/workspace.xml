@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ba6ddb0-1dda-40f3-82cf-e0a8a5223749" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FluxAndMonoGeneratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FluxAndMonoGeneratorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FluxAndMonoGeneratorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FluxAndMonoGeneratorServiceTest.java" afterDir="false" />
     </list>
@@ -79,7 +78,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FluxAndMonoGeneratorServiceTest.nameFlux_flatmap">
+  <component name="RunManager" selected="Gradle.FluxAndMonoGeneratorServiceTest.nameMono_flatMap">
     <configuration name="Local" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -163,6 +162,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FluxAndMonoGeneratorServiceTest.nameMono_flatMap" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.FluxAndMonoGeneratorServiceTest.nameMono_flatMap&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="FluxAndMonoGeneratorServiceTest.namesFlux" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,6 +210,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FluxAndMonoGeneratorServiceTest.nameMono_flatMap" />
         <item itemvalue="Gradle.FluxAndMonoGeneratorServiceTest.nameFlux_flatmap" />
         <item itemvalue="Gradle.FluxAndMonoGeneratorServiceTest.nameFlux_map" />
         <item itemvalue="Gradle.FluxAndMonoGeneratorServiceTest.nameFlux_map_immutability" />
